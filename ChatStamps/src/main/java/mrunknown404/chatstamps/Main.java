@@ -24,7 +24,7 @@ public class Main {
 	public static Main main;
 	
 	@EventHandler
-	public void preInit(FMLPreInitializationEvent e) {
+	public void preInit(@SuppressWarnings("unused") FMLPreInitializationEvent e) {
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 	
