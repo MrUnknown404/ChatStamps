@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="GNU General Public License v3.0"
+issueTrackerURL="https://github.com/MrUnknown404/ChatStamps/issues"
+
+[[mods]]
+modId="chatstamps"
+version="1.0.0"
+displayName="ChatStamps"
+displayURL="https://github.com/MrUnknown404/ChatStamps"
+#logoFile="examplemod.png"
+credits=""
+authors="-Unknown-"
+description='''
+Adds basic time stamps to chat.
+'''
+
+[[dependencies.chatstamps]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.chatstamps]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
