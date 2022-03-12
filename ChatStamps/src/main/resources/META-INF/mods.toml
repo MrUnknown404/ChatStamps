@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[36,)"
+loaderVersion="[40,)"
 license="GNU General Public License v3.0"
 issueTrackerURL="https://github.com/MrUnknown404/ChatStamps/issues"
 
@@ -18,12 +18,12 @@ Adds basic time stamps to chat.
 [[dependencies.chatstamps]]
     modId="forge"
     mandatory=true
-    versionRange="[36,)"
+    versionRange="[40,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.chatstamps]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.16.5]"
+    versionRange="[1.18.2]"
     ordering="NONE"
     side="BOTH"
